@@ -10,9 +10,7 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     root_path = None
     parser = argparse.ArgumentParser(description='argument for yblues application')
-    parser.add_argument('--root-path', dest='root_path', action='store_const',
-                        const=root_path,  default=None,
-                        help='path of application modules and packages')
+    parser.add_argument('--root-path', help='root path of the application')
 
     args = parser.parse_args()
 
