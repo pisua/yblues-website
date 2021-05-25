@@ -8,7 +8,7 @@ then
         DOCKER_FILE=$4
 
         DOCKER_FULL_NAME="$DOCKER_REPOSITORY:$DOCKER_TAG"
-        DOCKER_FULL_NAME="$DOCKER_REPOSITORY:latest"
+        DOCKER_FULL_NAME_LATEST="$DOCKER_REPOSITORY:latest"
 
         cd $DIRECTORY
         echo -e "\x1B[1;32m---- Building docker image \x1B[1;33m[$DOCKER_LOCAL_TAG]\x1B[1;32m...\x1B[0m"
@@ -31,7 +31,7 @@ then
                 if [ "$#" -ge 5 ]
                 then
                         echo -e "\x1B[1;32mPushing to Docker Hub...\x1B[0m"
-                        docker login -u $4 -p $5 
+                        docker login -u $4 -p $5
                         echo "docker push $DOCKER_FULL_NAME"
                         docker push $DOCKER_FULL_NAME
                         docker push $DOCKER_FULL_NAME_LATEST

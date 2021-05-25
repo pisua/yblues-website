@@ -9,7 +9,7 @@ if __name__ == "__main__":
     # Setup logs
     logging.basicConfig(level=logging.INFO)
     root_path = None
-    parser = argparse.ArgumentParser(description='argument for yblues application')
+    parser = argparse.ArgumentParser(description='argument for app application')
     parser.add_argument('--root-path',type=str,  help='root path of the application')
     parser.add_argument('--port',type=int, help='http port of the application')
 

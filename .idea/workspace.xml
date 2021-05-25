@@ -1,9 +1,297 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd8edd5-fdf8-4543-939d-4d4331c54b88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/.idea/ycappuccino.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/brython/brython.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/brython/brython_stdlib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/brython/unicode.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/client/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/client/bundles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/client/pelix/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/client/pelix/framework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/client/pelix/ipopo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/client/pelix/ipopo/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/client/pelix/ipopo/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/beans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/activity_logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/core_bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/endpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/indexEndpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/item_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/jwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/managers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/framework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/role.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/data/log/Log-Activity-main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/mongo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/mongo/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/mongo/bundles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/mongo/bundles/storage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yblues/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/yblues/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build_image.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/Log-Activity-main.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/conf/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/.idea/pelix.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/framework.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/http/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/http/basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/http/routing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/internals/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/internals/events.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/internals/hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/internals/registry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/contexts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/handlers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/handlers/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/handlers/properties.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/handlers/provides.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/handlers/requires.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/handlers/requiresbest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/handlers/requiresmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/handlers/requiresvarfilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/handlers/temporal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/instance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipopo/waiting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ipv6utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/ldapfilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/misc/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/misc/eventadmin_printer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/misc/init_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/misc/jabsorb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/misc/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/misc/mqtt_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/misc/ssl_wrap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/misc/xmpp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/beans.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/discovery/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/discovery/mdns.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/discovery/mqtt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/discovery/multicast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/discovery/redis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/discovery/zookeeper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/dispatcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/edef_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/json_rpc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/registry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/transport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/transport/commons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/transport/jabsorb_rpc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/transport/mqtt_rpc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/remote/xml_rpc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/edef.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/endpointdescription.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/providers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/providers/discovery/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/providers/discovery/discovery_etcd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/providers/distribution/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/providers/distribution/py4j.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/providers/distribution/xmlrpc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/remoteserviceadmin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/shell.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/topologymanagers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/rsa/topologymanagers/basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/services/configadmin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/services/eventadmin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/services/eventadmin_mqtt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/services/fileinstall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/services/mqtt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/beans.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/completion/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/completion/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/completion/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/completion/ipopo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/completion/pelix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/configadmin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/eventadmin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/ipopo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/remote.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/shell/xmpp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/threadpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pelix/utilities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/bundles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bundles/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/bundles/init_data_bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bundles/init_data_bootstrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/DEMO CODE/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/DEMO CODE/animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/DEMO CODE/burger.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/DEMO CODE/burger.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/DEMO CODE/cssdef.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/DEMO CODE/cssdef.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/DEMO CODE/def.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/DEMO CODE/def.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/DEMO CODE/fancy.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/DEMO CODE/fancy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/DEMO CODE/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/DEMO CODE/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/DEMO CODE/showHide.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/DEMO CODE/showHide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/DEMO CODE/style-slide-show.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/DEMO CODE/style-slide-show.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/DEMO CODE/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/DEMO CODE/timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/angularjs/angular-resource.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/angularjs/angular-resource.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/angularjs/angular-resource.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/angularjs/angular-resource.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/angularjs/angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/angularjs/angular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/YouTube-icon-dark-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/YouTube-icon-dark-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/apple-ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/apple-ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/deezer-ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/deezer-ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/fb-ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/fb-ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/google-ico-couleur.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/google-ico-couleur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/google-ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/google-ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/logo-ico.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/logo-ico.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/merch-ico-large.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/merch-ico-large.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/merch-ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/merch-ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/shopping-cart-217789_960_720.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/shopping-cart-217789_960_720.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/spotify-ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/spotify-ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/ico/youtube-ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/ico/youtube-ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/logo-home-4k.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/logo-home-4k.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/logo-home.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/logo-home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/logo-yblues-light_white-petit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/logo-yblues-light_white-petit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/logo-yblues-light_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/logo-yblues-light_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/logo-yblues_bl.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/logo-yblues_bl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/logo-yblues_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/logo-yblues_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/alpha.gif" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/alpha.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct11black.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct11black.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct11color.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct11color.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct1BandW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct1BandW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct3BandW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct3BandW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct7BandW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct7BandW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct8BandW.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct8BandW.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/pct9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/pct9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/4k/woodBack4k.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/4k/woodBack4k.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/DSC_6546_2_PETIT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/DSC_6546_2_PETIT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/cover_arrival.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/cover_arrival.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/cover_arrival_petit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/cover_arrival_petit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/cover_bttb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/cover_bttb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/cover_bttb_petit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/cover_bttb_petit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/cover_singlebarrel_petit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/cover_singlebarrel_petit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/2017-10-28-13-02-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/2017-10-28-13-02-02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/2017-11-01-16-55-14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/2017-11-01-16-55-14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/DSC_6442 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/DSC_6442 2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/DSC_6546 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/DSC_6546 2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/DSC_6624 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/DSC_6624 2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/deezer-ico-couleur.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/deezer-ico-couleur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/deezer-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/deezer-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/fboo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/fboo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/google-play-logo11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/google-play-logo11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/images.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/itunes.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/itunes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/spotify-icon-22.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/spotify-icon-22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/téléchargement.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/téléchargement.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/unnamed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/unnamed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/img/picture/maxSize/unnamed.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/img/picture/maxSize/unnamed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/js/box-shadow-menu-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/js/box-shadow-menu-action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/js/fancy.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/js/fancy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/js/jquery-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/js/jquery-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/js/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/js/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/js/smooth-scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/js/smooth-scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/merch-ico-large.xcf" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/merch-ico-large.xcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/module/main/main-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/module/main/main-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/module/main/main-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/module/main/main-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/module/restapi/restapi.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/module/restapi/restapi.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/module/restapi/restapi.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/module/restapi/restapi.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/style/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/style/animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/style/fancy.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/style/fancy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/style/style-slide-show.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/style/style-slide-show.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/style/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/style/timeline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/tech/logo-yblues_black_clean.psd" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/tech/logo-yblues_black_clean.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/tech/logo_complet_noir.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/tech/logo_complet_noir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/tech/logo_simple_noir.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/tech/logo_simple_noir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/tech/yblues_fiche_tech.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/tech/yblues_fiche_tech.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/client/tech/yblues_pressbook.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/tech/yblues_pressbook.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/data/log/Log-Activity-main.log" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/log/Log-Activity-main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/model/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/model/band.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/band.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/model/gig.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/gig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/model/lyrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/lyrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/model/member.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/model/music.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/music.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yblues/model/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycappuccino" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +313,49 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yblues" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="yblues" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/ycappuccino" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/ycappuccino/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="yblues" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,6 +379,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -64,51 +396,63 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="765" y="393" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621869737679">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
     <state x="765" y="393" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.23.2518.1417@42.23.2518.1417" timestamp="1621869737679" />
-    <state width="2497" height="502" key="GridCell.Tab.0.bottom" timestamp="1621873497632">
+    <state width="2497" height="502" key="GridCell.Tab.0.bottom" timestamp="1621952364709">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
-    <state width="2497" height="502" key="GridCell.Tab.0.bottom/42.23.2518.1417@42.23.2518.1417" timestamp="1621873497632" />
-    <state width="2497" height="502" key="GridCell.Tab.0.center" timestamp="1621873497632">
+    <state width="2497" height="502" key="GridCell.Tab.0.bottom/42.23.2518.1417@42.23.2518.1417" timestamp="1621952364709" />
+    <state width="2497" height="502" key="GridCell.Tab.0.center" timestamp="1621952364708">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
-    <state width="2497" height="502" key="GridCell.Tab.0.center/42.23.2518.1417@42.23.2518.1417" timestamp="1621873497632" />
-    <state width="2497" height="502" key="GridCell.Tab.0.left" timestamp="1621873497631">
+    <state width="2497" height="502" key="GridCell.Tab.0.center/42.23.2518.1417@42.23.2518.1417" timestamp="1621952364708" />
+    <state width="2497" height="502" key="GridCell.Tab.0.left" timestamp="1621952364708">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
-    <state width="2497" height="502" key="GridCell.Tab.0.left/42.23.2518.1417@42.23.2518.1417" timestamp="1621873497631" />
-    <state width="2497" height="502" key="GridCell.Tab.0.right" timestamp="1621873497632">
+    <state width="2497" height="502" key="GridCell.Tab.0.left/42.23.2518.1417@42.23.2518.1417" timestamp="1621952364708" />
+    <state width="2497" height="502" key="GridCell.Tab.0.right" timestamp="1621952364709">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
-    <state width="2497" height="502" key="GridCell.Tab.0.right/42.23.2518.1417@42.23.2518.1417" timestamp="1621873497632" />
-    <state width="2497" height="502" key="GridCell.Tab.1.bottom" timestamp="1621873497996">
+    <state width="2497" height="502" key="GridCell.Tab.0.right/42.23.2518.1417@42.23.2518.1417" timestamp="1621952364709" />
+    <state width="2497" height="502" key="GridCell.Tab.1.bottom" timestamp="1621952364645">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
-    <state width="2497" height="502" key="GridCell.Tab.1.bottom/42.23.2518.1417@42.23.2518.1417" timestamp="1621873497996" />
-    <state width="2497" height="502" key="GridCell.Tab.1.center" timestamp="1621873497996">
+    <state width="2497" height="502" key="GridCell.Tab.1.bottom/42.23.2518.1417@42.23.2518.1417" timestamp="1621952364645" />
+    <state width="2497" height="502" key="GridCell.Tab.1.center" timestamp="1621952364645">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
-    <state width="2497" height="502" key="GridCell.Tab.1.center/42.23.2518.1417@42.23.2518.1417" timestamp="1621873497996" />
-    <state width="2497" height="502" key="GridCell.Tab.1.left" timestamp="1621873497995">
+    <state width="2497" height="502" key="GridCell.Tab.1.center/42.23.2518.1417@42.23.2518.1417" timestamp="1621952364645" />
+    <state width="2497" height="502" key="GridCell.Tab.1.left" timestamp="1621952364644">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
-    <state width="2497" height="502" key="GridCell.Tab.1.left/42.23.2518.1417@42.23.2518.1417" timestamp="1621873497995" />
-    <state width="2497" height="502" key="GridCell.Tab.1.right" timestamp="1621873497996">
+    <state width="2497" height="502" key="GridCell.Tab.1.left/42.23.2518.1417@42.23.2518.1417" timestamp="1621952364644" />
+    <state width="2497" height="502" key="GridCell.Tab.1.right" timestamp="1621952364645">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
-    <state width="2497" height="502" key="GridCell.Tab.1.right/42.23.2518.1417@42.23.2518.1417" timestamp="1621873497996" />
+    <state width="2497" height="502" key="GridCell.Tab.1.right/42.23.2518.1417@42.23.2518.1417" timestamp="1621952364645" />
     <state x="810" y="370" key="SettingsEditor" timestamp="1621869809418">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
     <state x="810" y="370" key="SettingsEditor/42.23.2518.1417@42.23.2518.1417" timestamp="1621869809418" />
-    <state x="863" y="467" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1621870585113">
+    <state x="863" y="467" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1621951889649">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
-    <state x="863" y="467" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/42.23.2518.1417@42.23.2518.1417" timestamp="1621870585113" />
+    <state x="863" y="467" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/42.23.2518.1417@42.23.2518.1417" timestamp="1621951889649" />
     <state x="1008" y="486" width="586" height="490" key="find.popup" timestamp="1621869981072">
       <screen x="42" y="23" width="2518" height="1417" />
     </state>
@@ -116,13 +460,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/yblues/main.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
