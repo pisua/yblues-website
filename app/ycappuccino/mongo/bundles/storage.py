@@ -102,7 +102,7 @@ class MongoStorage(IStorage):
         _logger.info("MongoStorage validating")
         try:
             self.load_configuration()
-            self._client = MongoClient(self._host, self._port)
+            self._client = MongoClient(self._host, int(self._port))
             self._db = self._client[self._db_name]
 
         except Exception as e:
