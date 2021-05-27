@@ -227,7 +227,7 @@ class _ReportCommands(object):
             "pelix": ("pelix_basic", "pelix_bundles", "pelix_services"),
             "ipopo": ("ipopo_instances", "ipopo_factories"),
             # Application description
-            "app": ("os", "process", "python", "python_path", "os_env"),
+            "yblues": ("os", "process", "python", "python_path", "os_env"),
             # Standard description levels
             "minimal": ("os", "python", "pelix_basic"),
             "standard": (

@@ -47,7 +47,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_member.id("y")
         w_member.name("Yaiba (Y)")
         w_member.role("Guitar / Vocals / Lead")
-        w_member.band("app")
+        w_member.band("yblues")
         self._manager_member.up_sert(w_member.id, w_member)
 
         # marmotte
@@ -55,7 +55,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_member.id("marmotte")
         w_member.name("Marmotte")
         w_member.role("Bass")
-        w_member.band("app")
+        w_member.band("yblues")
         self._manager_member.up_sert(w_member.id, w_member)
 
         #spike
@@ -63,7 +63,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_member.id("spike")
         w_member.name("Spike")
         w_member.role("Vocals")
-        w_member.band("app")
+        w_member.band("yblues")
         self._manager_member.up_sert(w_member.id, w_member)
 
         #sereb
@@ -71,7 +71,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_member.id("sereb")
         w_member.name("Sereb")
         w_member.role("Drums")
-        w_member.band("app")
+        w_member.band("yblues")
         self._manager_member.up_sert(w_member.id, w_member)
 
     def _init_album(self):
@@ -81,7 +81,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_album.producer("Y.Blues")
         w_album.release_date("30/09/2013")
         w_album.cover("img/picture/cover_arrival_petit.jpg")
-        w_album.band("app")
+        w_album.band("yblues")
         self._manager_album.up_sert(w_album.id, w_album)
 
         w_album = Album()
@@ -90,7 +90,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_album.producer("Y.Blues")
         w_album.release_date("15/04/2017")
         w_album.cover("img/picture/cover_bttb_petit.jpg")
-        w_album.band("app")
+        w_album.band("yblues")
         self._manager_album.up_sert(w_album.id, w_album)
 
         w_album = Album()
@@ -100,7 +100,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_album.release_date("21/03/2020")
         w_album.cover("img/picture/cover_singlebarrel_petit.jpg")
 
-        w_album.band("app")
+        w_album.band("yblues")
         self._manager_album.up_sert(w_album.id, w_album)
 
     def _init_gig(self):
@@ -350,7 +350,7 @@ class InitDataBootStrap(IManagerBootStrapData):
 
         # app
         w_music = Music()
-        w_music.id("app")
+        w_music.id("yblues")
         w_music.name("Y.Blues")
         w_music.author("Yaiba")
         w_music.composer("Yaiba")
@@ -473,7 +473,7 @@ class InitDataBootStrap(IManagerBootStrapData):
 
     def _init_band(self):
         w_band = Band()
-        w_band.id("app")
+        w_band.id("yblues")
         w_band.name("Y.Blues")
         w_band.bio("Le Jack Blues Metal, mélange (vieilli en fût) de blues moderne au bottleneck et de metal des plus sauvage, est né lorsque les membre de Y.Blues (prononcez « Ouaille Blouze ») ont compris qu'il pouvaient faire mieux ensemble que de seulement se mettre la gueule au wiskey. Avec Yaiba à la guitare acoustique et au chant, Marmotte à la basse et Sereb à la batterie, parfois groovy, parfois bourrin et même par moment absurde, Y.Blues garanti de nombreuses émotions souvent incompatibles.")
 

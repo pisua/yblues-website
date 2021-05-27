@@ -50,13 +50,13 @@ app.controller("mainCtrl",['$scope', 'restapiServivce',  '$location',
 	$scope.gigYearSelect = null
 	$scope.news = null;
 	// get gig informations
-	self.getGigs = function() {      
-		if (!$scope.gigs) { 
+	self.getGigs = function() {
+		if (!$scope.gigs) {
 			$scope.gigs = [];
 			let idx = (new Date()).getFullYear();
 			wLastYear=null;
 			restapiServivce.gigs.get({sort:"date(desc)"},function(aData) {
-				aData.data.forEach(function(gig){
+				aData.data && aData.data.forEach(function(gig){
 					wDate = new Date(gig.date);
 					wYear = wDate.getFullYear()
 					$scope.gigYearSelect =  $scope.gigYearSelect ==null || $scope.gigYearSelect < wYear? wYear: $scope.gigYearSelect;
@@ -64,7 +64,7 @@ app.controller("mainCtrl",['$scope', 'restapiServivce',  '$location',
 						
 						wLastYear = wYear;
 						$scope.gigs[Math.abs(wYear-idx)] ={
-								klass : "hidden-date",
+								class : "hidden-date",
 								year : wYear,
 								gigs : []
 						}
@@ -84,7 +84,9 @@ app.controller("mainCtrl",['$scope', 'restapiServivce',  '$location',
 				});
 				$scope.clickOnDate(idx)
 
-				$scope.gigs[0].klass = "table-date-visible"
+                if( $scope.gigs && $scope.gigs.length ){
+				    $scope.gigs[0].class = "table-date-visible"
+				}
 
 					console.log("get gigs");
 			});  
