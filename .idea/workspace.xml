@@ -20,21 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd8edd5-fdf8-4543-939d-4d4331c54b88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/DEMO CODE/animation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/DEMO CODE/burger.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/DEMO CODE/cssdef.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/DEMO CODE/def.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/DEMO CODE/fancy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/DEMO CODE/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/DEMO CODE/showHide.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/DEMO CODE/style-slide-show.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/DEMO CODE/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/client" beforeDir="false" afterPath="$PROJECT_DIR$/app/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/client/js/news.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/client/module/main/main-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/module/main/main-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/indexEndpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/indexEndpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/client/module/restapi/restapi.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/module/restapi/restapi.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build_docker.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app/client" />
   </component>
   <component name="ProjectId" id="1sgi31z7KYK3cSfTJ5xB4VhWXEk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -152,62 +144,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="393" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621869737679">
-      <screen x="42" y="23" width="2518" height="1417" />
+    <state x="142" y="123" width="2318" height="1217" key="DiffContextDialog" timestamp="1631094863965">
+      <screen x="36" y="23" width="2524" height="1417" />
     </state>
-    <state x="765" y="393" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.23.2518.1417@42.23.2518.1417" timestamp="1621869737679" />
-    <state width="1624" height="346" key="GridCell.Tab.0.bottom" timestamp="1622145825003">
-      <screen x="34" y="23" width="1646" height="1027" />
-    </state>
-    <state width="1624" height="346" key="GridCell.Tab.0.bottom/34.23.1646.1027@34.23.1646.1027" timestamp="1622145825003" />
-    <state width="2497" height="502" key="GridCell.Tab.0.bottom/42.23.2518.1417@42.23.2518.1417" timestamp="1621953210209" />
-    <state width="1624" height="346" key="GridCell.Tab.0.center" timestamp="1622145825003">
-      <screen x="34" y="23" width="1646" height="1027" />
-    </state>
-    <state width="1624" height="346" key="GridCell.Tab.0.center/34.23.1646.1027@34.23.1646.1027" timestamp="1622145825003" />
-    <state width="2497" height="502" key="GridCell.Tab.0.center/42.23.2518.1417@42.23.2518.1417" timestamp="1621953210209" />
-    <state width="1624" height="346" key="GridCell.Tab.0.left" timestamp="1622145825002">
-      <screen x="34" y="23" width="1646" height="1027" />
-    </state>
-    <state width="1624" height="346" key="GridCell.Tab.0.left/34.23.1646.1027@34.23.1646.1027" timestamp="1622145825002" />
-    <state width="2497" height="502" key="GridCell.Tab.0.left/42.23.2518.1417@42.23.2518.1417" timestamp="1621953210208" />
-    <state width="1624" height="346" key="GridCell.Tab.0.right" timestamp="1622145825003">
-      <screen x="34" y="23" width="1646" height="1027" />
-    </state>
-    <state width="1624" height="346" key="GridCell.Tab.0.right/34.23.1646.1027@34.23.1646.1027" timestamp="1622145825003" />
-    <state width="2497" height="502" key="GridCell.Tab.0.right/42.23.2518.1417@42.23.2518.1417" timestamp="1621953210209" />
-    <state width="1624" height="346" key="GridCell.Tab.1.bottom" timestamp="1622145824916">
-      <screen x="34" y="23" width="1646" height="1027" />
-    </state>
-    <state width="1624" height="346" key="GridCell.Tab.1.bottom/34.23.1646.1027@34.23.1646.1027" timestamp="1622145824916" />
-    <state width="2497" height="502" key="GridCell.Tab.1.bottom/42.23.2518.1417@42.23.2518.1417" timestamp="1621953210134" />
-    <state width="1624" height="346" key="GridCell.Tab.1.center" timestamp="1622145824916">
-      <screen x="34" y="23" width="1646" height="1027" />
-    </state>
-    <state width="1624" height="346" key="GridCell.Tab.1.center/34.23.1646.1027@34.23.1646.1027" timestamp="1622145824916" />
-    <state width="2497" height="502" key="GridCell.Tab.1.center/42.23.2518.1417@42.23.2518.1417" timestamp="1621953210134" />
-    <state width="1624" height="346" key="GridCell.Tab.1.left" timestamp="1622145824916">
-      <screen x="34" y="23" width="1646" height="1027" />
-    </state>
-    <state width="1624" height="346" key="GridCell.Tab.1.left/34.23.1646.1027@34.23.1646.1027" timestamp="1622145824916" />
-    <state width="2497" height="502" key="GridCell.Tab.1.left/42.23.2518.1417@42.23.2518.1417" timestamp="1621953210133" />
-    <state width="1624" height="346" key="GridCell.Tab.1.right" timestamp="1622145824916">
-      <screen x="34" y="23" width="1646" height="1027" />
-    </state>
-    <state width="1624" height="346" key="GridCell.Tab.1.right/34.23.1646.1027@34.23.1646.1027" timestamp="1622145824916" />
-    <state width="2497" height="502" key="GridCell.Tab.1.right/42.23.2518.1417@42.23.2518.1417" timestamp="1621953210134" />
-    <state x="810" y="370" key="SettingsEditor" timestamp="1621869809418">
-      <screen x="42" y="23" width="2518" height="1417" />
-    </state>
-    <state x="810" y="370" key="SettingsEditor/42.23.2518.1417@42.23.2518.1417" timestamp="1621869809418" />
-    <state x="863" y="467" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1621951889649">
-      <screen x="42" y="23" width="2518" height="1417" />
-    </state>
-    <state x="863" y="467" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/42.23.2518.1417@42.23.2518.1417" timestamp="1621951889649" />
-    <state x="1008" y="486" width="586" height="490" key="find.popup" timestamp="1621869981072">
-      <screen x="42" y="23" width="2518" height="1417" />
-    </state>
-    <state x="1008" y="486" width="586" height="490" key="find.popup/42.23.2518.1417@42.23.2518.1417" timestamp="1621869981072" />
+    <state x="142" y="123" width="2318" height="1217" key="DiffContextDialog/36.23.2524.1417@36.23.2524.1417" timestamp="1631094863965" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
