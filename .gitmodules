@@ -1,3 +1,6 @@
 [submodule "app/ycappuccino"]
 	path = app/ycappuccino
 	url = https://github.com/pisua/ycappuccino
+[submodule "app/client"]
+	path = app/client
+	url = https://github.com/pisua/Y.Blues-Client

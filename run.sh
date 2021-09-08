@@ -1,4 +1,5 @@
 #!/bin/sh
 
 echo "launch"
-python3 /opt/yblues/main.py  --root-path /opt/yblues/ --port 9000
+cd /opt/yblues
+python3 main.py  --root-path /opt/yblues/ --port 9000
