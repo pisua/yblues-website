@@ -1,0 +1,3 @@
+[submodule "app/ycappuccino"]
+	path = app/ycappuccino
+	url = https://github.com/pisua/ycappuccino
