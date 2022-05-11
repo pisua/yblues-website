@@ -1,8 +1,8 @@
 from ycappuccino.core.model.decorators import Item, Property, Reference, ItemReference
 from ycappuccino.core.model.model import Model
 
-@Item(collection="videos",name="video", secureWrite=True)
-@ItemReference(field_name="_music", item_name="music")
+@Item(collection="videos", plural="videos",name="video", secureWrite=True, app="yblues")
+@ItemReference(field="_music", item="music")
 class Video(Model):
     def __init__(self, a_dict=None):
         super().__init__(a_dict)

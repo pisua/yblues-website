@@ -1,8 +1,8 @@
 from ycappuccino.core.model.decorators import Item,  Property, Reference, ItemReference
 from ycappuccino.core.model.model import Model
 
-@Item(collection="members",name="member", secureWrite=True)
-@ItemReference(field_name="_band", item_name="band")
+@Item(collection="members",plural="members",name="member", secureWrite=True, app="yblues")
+@ItemReference(field="_band", item="band")
 class Member(Model):
     def __init__(self, a_dict=None):
         super().__init__(a_dict)

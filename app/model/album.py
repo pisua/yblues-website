@@ -3,8 +3,8 @@ from ycappuccino.core.model.model import Model
 import datetime, time
 
 
-@Item(collection="albums",name="album", secureWrite=True)
-@ItemReference(field_name="_band", item_name="band")
+@Item(collection="albums",plural="albums",name="album", secureWrite=True, app="yblues")
+@ItemReference(field="_band", item="band")
 class Album(Model):
     """ bean that represent an album """
     def __init__(self, a_dict=None):

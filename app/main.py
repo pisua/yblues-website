@@ -1,5 +1,5 @@
-import core
-import mongo
+import ycappuccino.core
+import ycappuccino.mongo
 import logging
 import argparse
 

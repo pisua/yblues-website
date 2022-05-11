@@ -48,7 +48,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_member.name("Yaiba (Y)")
         w_member.role("Guitar / Vocals / Lead")
         w_member.band("yblues")
-        self._manager_member.up_sert(w_member.id, w_member)
+        self._manager_member.up_sert_model(w_member.id, w_member)
 
         # marmotte
         w_member = Member()
@@ -56,7 +56,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_member.name("Marmotte")
         w_member.role("Bass")
         w_member.band("yblues")
-        self._manager_member.up_sert(w_member.id, w_member)
+        self._manager_member.up_sert_model(w_member.id, w_member)
 
         #spike
         w_member = Member()
@@ -64,7 +64,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_member.name("Spike")
         w_member.role("Vocals")
         w_member.band("yblues")
-        self._manager_member.up_sert(w_member.id, w_member)
+        self._manager_member.up_sert_model(w_member.id, w_member)
 
         #sereb
         w_member = Member()
@@ -72,7 +72,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_member.name("Sereb")
         w_member.role("Drums")
         w_member.band("yblues")
-        self._manager_member.up_sert(w_member.id, w_member)
+        self._manager_member.up_sert_model(w_member.id, w_member)
 
     def _init_album(self):
         w_album = Album()
@@ -82,7 +82,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_album.release_date("30/09/2013")
         w_album.cover("img/picture/cover_arrival_petit.jpg")
         w_album.band("yblues")
-        self._manager_album.up_sert(w_album.id, w_album)
+        self._manager_album.up_sert_model(w_album.id, w_album)
 
         w_album = Album()
         w_album.id("bttb")
@@ -91,7 +91,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_album.release_date("15/04/2017")
         w_album.cover("img/picture/cover_bttb_petit.jpg")
         w_album.band("yblues")
-        self._manager_album.up_sert(w_album.id, w_album)
+        self._manager_album.up_sert_model(w_album.id, w_album)
 
         w_album = Album()
         w_album.id("sb")
@@ -101,7 +101,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_album.cover("img/picture/cover_singlebarrel_petit.jpg")
 
         w_album.band("yblues")
-        self._manager_album.up_sert(w_album.id, w_album)
+        self._manager_album.up_sert_model(w_album.id, w_album)
 
     def _init_gig(self):
         pass
@@ -209,7 +209,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_music.album("bttb", {"numero": 9})
         w_musics.append(w_music)
 
-        self._manager_music.up_sert_many(w_musics)
+        self._manager_music.up_sert_many_model(w_musics)
 
     def _init_music_sb(self):
         # arrival album
@@ -290,7 +290,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_music.album("sb", {"numero": 8})
         w_musics.append(w_music)
 
-        self._manager_music.up_sert_many(w_musics)
+        self._manager_music.up_sert_many_model(w_musics)
 
     def _init_music_arrival(self):
         # arrival album
@@ -377,7 +377,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_music.album("arrival",{"numero": 8})
         w_musics.append(w_music)
 
-        self._manager_music.up_sert_many(w_musics)
+        self._manager_music.up_sert_many_model(w_musics)
 
 
     def _init_video(self):
@@ -469,7 +469,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_video.url("https://www.youtube.com/embed/X8nXyU7ziss")
         w_videos.append(w_video)
 
-        self._manager_video.up_sert_many(w_videos)
+        self._manager_video.up_sert_many_model(w_videos)
 
     def _init_band(self):
         w_band = Band()
@@ -477,7 +477,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         w_band.name("Y.Blues")
         w_band.bio("Le Jack Blues Metal, mélange (vieilli en fût) de blues moderne au bottleneck et de metal des plus sauvage, est né lorsque les membre de Y.Blues (prononcez « Ouaille Blouze ») ont compris qu'il pouvaient faire mieux ensemble que de seulement se mettre la gueule au wiskey. Avec Yaiba à la guitare acoustique et au chant, Marmotte à la basse et Sereb à la batterie, parfois groovy, parfois bourrin et même par moment absurde, Y.Blues garanti de nombreuses émotions souvent incompatibles.")
 
-        self._manager_band.up_sert(w_band.id, w_band)
+        self._manager_band.up_sert_model(w_band.id, w_band)
 
     @Validate
     def validate(self, context):
