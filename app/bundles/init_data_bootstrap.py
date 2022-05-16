@@ -20,6 +20,7 @@ _logger = logging.getLogger(__name__)
 @Requires("_manager_music", IManager.name, spec_filter="'(item_id=music)'")
 @Requires("_manager_video", IManager.name, spec_filter="'(item_id=video)'")
 @Requires("_manager_album", IManager.name, spec_filter="'(item_id=album)'")
+
 @Instantiate("InitDataBootStrap")
 class InitDataBootStrap(IManagerBootStrapData):
 

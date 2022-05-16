@@ -20,15 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd8edd5-fdf8-4543-939d-4d4331c54b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/path/brython_path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/path/react_path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/path/swagger_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/services/LoginService.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bundles/init_data_bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bundles/init_data_bootstrap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/client" beforeDir="false" afterPath="$PROJECT_DIR$/app/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/client/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/ycappuccino" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/indexEndpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/indexEndpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/beans.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/beans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/core_bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/core_bootstrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/endpoints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/item_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/item_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/jwt.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/jwt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt-1.2.0.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt-1.2.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt-1.2.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt-1.2.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt-1.2.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt-1.2.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt-1.2.0.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt-1.2.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt/jwa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt/jwk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt/jwkset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt/jws.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt/jwt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/jwt/utils.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +75,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/ycappuccino/core/bundles/client_path" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/ycappuccino/core/bundles/crud" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/ycappuccino/core/bundles/crud" />
+      <recent name="$PROJECT_DIR$/app/ycappuccino/core/bundles/client_path" />
+      <recent name="$PROJECT_DIR$/app/ycappuccino/swagger/theme" />
+      <recent name="$PROJECT_DIR$/app/ycappuccino" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/ycappuccino/core/bundles" />
       <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/app/ycappuccino" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/ycappuccino/core/bundles/client_path" />
-      <recent name="$PROJECT_DIR$/app/ycappuccino/swagger/theme" />
       <recent name="$PROJECT_DIR$/app/ycappuccino" />
     </key>
   </component>
@@ -168,46 +190,54 @@
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
     <state x="335" y="399" key="#com.intellij.execution.impl.EditConfigurationsDialog/39.23.2521.1417@39.23.2521.1417" timestamp="1651744066251" />
-    <state width="2104" height="379" key="GridCell.Tab.0.bottom" timestamp="1652354305509">
+    <state width="2005" height="379" key="GridCell.Tab.0.bottom" timestamp="1652696727480">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
-    <state width="2104" height="379" key="GridCell.Tab.0.bottom/39.23.2521.1417@39.23.2521.1417" timestamp="1652354305509" />
-    <state width="2104" height="379" key="GridCell.Tab.0.center" timestamp="1652354305509">
+    <state width="1659" height="379" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1652461502069" />
+    <state width="2005" height="379" key="GridCell.Tab.0.bottom/39.23.2521.1417@39.23.2521.1417" timestamp="1652696727480" />
+    <state width="2005" height="379" key="GridCell.Tab.0.center" timestamp="1652696727480">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
-    <state width="2104" height="379" key="GridCell.Tab.0.center/39.23.2521.1417@39.23.2521.1417" timestamp="1652354305509" />
-    <state width="2104" height="379" key="GridCell.Tab.0.left" timestamp="1652354305509">
+    <state width="1659" height="379" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1652461502068" />
+    <state width="2005" height="379" key="GridCell.Tab.0.center/39.23.2521.1417@39.23.2521.1417" timestamp="1652696727480" />
+    <state width="2005" height="379" key="GridCell.Tab.0.left" timestamp="1652696727479">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
-    <state width="2104" height="379" key="GridCell.Tab.0.left/39.23.2521.1417@39.23.2521.1417" timestamp="1652354305509" />
-    <state width="2104" height="379" key="GridCell.Tab.0.right" timestamp="1652354305509">
+    <state width="1659" height="379" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1652461502068" />
+    <state width="2005" height="379" key="GridCell.Tab.0.left/39.23.2521.1417@39.23.2521.1417" timestamp="1652696727479" />
+    <state width="2005" height="379" key="GridCell.Tab.0.right" timestamp="1652696727480">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
-    <state width="2104" height="379" key="GridCell.Tab.0.right/39.23.2521.1417@39.23.2521.1417" timestamp="1652354305509" />
-    <state width="2104" height="379" key="GridCell.Tab.1.bottom" timestamp="1652354305444">
+    <state width="1659" height="379" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1652461502069" />
+    <state width="2005" height="379" key="GridCell.Tab.0.right/39.23.2521.1417@39.23.2521.1417" timestamp="1652696727480" />
+    <state width="2005" height="379" key="GridCell.Tab.1.bottom" timestamp="1652696731040">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
-    <state width="2104" height="379" key="GridCell.Tab.1.bottom/39.23.2521.1417@39.23.2521.1417" timestamp="1652354305444" />
-    <state width="2104" height="379" key="GridCell.Tab.1.center" timestamp="1652354305443">
+    <state width="1659" height="379" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1652461502010" />
+    <state width="2005" height="379" key="GridCell.Tab.1.bottom/39.23.2521.1417@39.23.2521.1417" timestamp="1652696731040" />
+    <state width="2005" height="379" key="GridCell.Tab.1.center" timestamp="1652696731039">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
-    <state width="2104" height="379" key="GridCell.Tab.1.center/39.23.2521.1417@39.23.2521.1417" timestamp="1652354305443" />
-    <state width="2104" height="379" key="GridCell.Tab.1.left" timestamp="1652354305443">
+    <state width="1659" height="379" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1652461502010" />
+    <state width="2005" height="379" key="GridCell.Tab.1.center/39.23.2521.1417@39.23.2521.1417" timestamp="1652696731039" />
+    <state width="2005" height="379" key="GridCell.Tab.1.left" timestamp="1652696731039">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
-    <state width="2104" height="379" key="GridCell.Tab.1.left/39.23.2521.1417@39.23.2521.1417" timestamp="1652354305443" />
-    <state width="2104" height="379" key="GridCell.Tab.1.right" timestamp="1652354305444">
+    <state width="1659" height="379" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1652461502009" />
+    <state width="2005" height="379" key="GridCell.Tab.1.left/39.23.2521.1417@39.23.2521.1417" timestamp="1652696731039" />
+    <state width="2005" height="379" key="GridCell.Tab.1.right" timestamp="1652696731040">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
-    <state width="2104" height="379" key="GridCell.Tab.1.right/39.23.2521.1417@39.23.2521.1417" timestamp="1652354305444" />
+    <state width="1659" height="379" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1652461502010" />
+    <state width="2005" height="379" key="GridCell.Tab.1.right/39.23.2521.1417@39.23.2521.1417" timestamp="1652696731040" />
     <state x="380" y="376" key="SettingsEditor" timestamp="1651744136880">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
     <state x="380" y="376" key="SettingsEditor/39.23.2521.1417@39.23.2521.1417" timestamp="1651744136880" />
-    <state x="787" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1652350441159">
+    <state x="787" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1652694829627">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
-    <state x="787" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/39.23.2521.1417@39.23.2521.1417" timestamp="1652350441159" />
+    <state x="787" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/39.23.2521.1417@39.23.2521.1417" timestamp="1652694829627" />
     <state x="773" y="492" width="586" height="548" key="find.popup" timestamp="1651746618022">
       <screen x="39" y="23" width="2521" height="1417" />
     </state>
@@ -225,10 +255,10 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="os.path.exists(w_file)" language="Python" />
-        <watch expression="inspect.getmodule(self).__file__" language="Python" />
-        <watch expression="&quot;pelix&quot; not in a_module_name" language="Python" />
-        <watch expression="&quot;client&quot; not in a_module_name " language="Python" />
+        <watch expression="ycappuccino.core.model.decorators.get_map_items()" language="Python" />
+        <watch expression="dir(jwt)" language="Python" />
+        <watch expression="result" language="Python" />
+        <watch expression="w_login.__dict__[&quot;salt&quot;]" language="Python" />
         <watch expression="&quot;framework&quot; not in w_file" language="Python" />
       </configuration>
     </watches-manager>
