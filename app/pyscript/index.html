@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>PyScript Hello World</title>
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env>
+    - ipopo
+    </py-env>
+  </head>
+
+  <body>
+    Hello world! <br>
+    This is the current date and time, as computed by Python:
+    <py-script>
+        from pelix.framework import create_framework
+        import sys,threading
+
+        def flush():
+            print("\n")
+        sys.stdout.flush = flush
+
+        threading.Thread.start = flush
+        thread = threading.Thread()
+        # Set the thread as a daemon, to let it be killed by the interpreter
+        # once all other threads stopped.
+        print("\n")
+        thread.start()e
+
+
+    </py-script>
+  </body>
+</html>
+Footer

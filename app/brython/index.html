@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/brython@3.10.6/brython.min.js">
+    </script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/brython@3.10.6/brython_stdlib.js">
+    </script>
+</head>
+
+<body onload="brython()">
+
+<script type="text/python">
+from pelix.framework import create_framework
+
+# Create the Pelix framework
+framework = create_framework((
+    # iPOPO
+    'pelix.ipopo.core',
+
+    # Shell bundles
+    'pelix.shell.core',
+    'pelix.shell.console',
+    'pelix.shell.remote',
+    'pelix.shell.ipopo',
+
+    # ConfigurationAdmin
+    'pelix.services.configadmin',
+    'pelix.shell.configadmin',
+
+    # EventAdmin,
+    'pelix.services.eventadmin',
+    'pelix.shell.eventadmin',
+
+
+))
+
+# Start the framework
+framework.start()
+</script>
+
+
+</body>
+
+</html>
