@@ -1,5 +1,18 @@
 from ycappuccino.core.model.decorators import Item, Property, Reference, ItemReference
 from ycappuccino.core.model.model import Model
+_empty = None
+
+def empty():
+    _empty = Music()
+    _empty.id("test")
+    _empty.name("test")
+    _empty.author("author")
+    _empty.composer("test")
+    _empty.album("test")
+    _empty.arrangment("toto,tata,tutu")
+    _empty.feat("ben")
+    _empty.album("opus")
+
 
 @Item(collection="musics",plural="musics",name="music", secureWrite=True, app="yblues")
 @ItemReference(field="_album", item="album")
@@ -36,6 +49,8 @@ class Music(Model):
         self._feat = a_value
 
     @Reference(name="album")
-    def album(self, a_value, a_properties):
+    def album(self, a_value, a_properties=None):
         self._album = a_value
         self._album_properties = a_properties
+
+empty()

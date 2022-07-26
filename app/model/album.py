@@ -2,6 +2,17 @@ from ycappuccino.core.model.decorators import Item, Property, Reference, ItemRef
 from ycappuccino.core.model.model import Model
 import datetime, time
 
+_empty = None
+def empty():
+    _empty = Album()
+    _empty.id("test")
+    _empty.name("test")
+    _empty.band("test")
+    _empty.producer("test")
+    _empty.cover("test")
+    _empty.release_date("01/12/2020")
+    _empty.label("test")
+
 
 @Item(collection="albums",plural="albums",name="album", secureWrite=True, app="yblues")
 @ItemReference(field="_band", item="band")
@@ -49,3 +60,5 @@ class Album(Model):
     def label(self, a_value):
         """ label if exists """
         self._label = a_value
+
+empty()

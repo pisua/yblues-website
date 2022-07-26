@@ -1,6 +1,15 @@
 from ycappuccino.core.model.decorators import Item, Property, Reference, ItemReference
 from ycappuccino.core.model.model import Model
 
+_empty = None
+
+def empty():
+    _empty = Lyrics()
+    _empty.id("45_reasons")
+    _empty.music("45 reasons")
+    _empty.lyrics("test")
+
+
 @Item(collection="lyrics",plural="lyrics", name="lyric", secureWrite=True, app="yblues")
 @ItemReference(field="_music", item="music")
 class Lyrics(Model):
@@ -16,3 +25,5 @@ class Lyrics(Model):
     @Property(name="lyrics")
     def lyrics(self, a_value):
         self._lyrics = a_value
+
+empty()

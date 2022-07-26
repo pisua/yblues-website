@@ -1,6 +1,19 @@
 from ycappuccino.core.model.decorators import Item, Property
 from ycappuccino.core.model.model import Model
 
+_empty = None
+
+def empty():
+    _empty = Gig()
+    _empty.id("test")
+    _empty.name("test")
+    _empty.address("test")
+    _empty.city("test")
+    _empty.place("test")
+    _empty.date("20/01/2020")
+    _empty.bands("yblues, test")
+
+
 @Item(collection="gigs",plural="gigs",name="gig", secureWrite=True, app="yblues")
 class Gig(Model):
     def __init__(self, a_dict=None):
@@ -29,3 +42,5 @@ class Gig(Model):
     @Property(name="bands")
     def bands(self, a_value):
         self._bands = a_value
+
+empty()

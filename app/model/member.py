@@ -1,5 +1,13 @@
 from ycappuccino.core.model.decorators import Item,  Property, Reference, ItemReference
 from ycappuccino.core.model.model import Model
+_empty = None
+
+def empty():
+    _empty = Member()
+    _empty.id("test")
+    _empty.name("yaiba")
+    _empty.role("test")
+    _empty.band("yblues")
 
 @Item(collection="members",plural="members",name="member", secureWrite=True, app="yblues")
 @ItemReference(field="_band", item="band")
@@ -21,3 +29,5 @@ class Member(Model):
     @Reference(name="band")
     def band(self, a_value):
         self._band = a_value
+
+empty()
