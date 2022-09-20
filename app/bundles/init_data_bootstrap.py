@@ -3,7 +3,8 @@ from model.band import Band
 from model.member import Member
 from model.music import Music
 from model.video import Video
-from ycappuccino.core.api import IActivityLogger, IManager, IManagerBootStrapData, YCappuccino
+from model.gig import Gig
+from ycappuccino.core.api import IActivityLogger, IManager, IBootStrap, YCappuccino
 import logging
 from pelix.ipopo.decorators import ComponentFactory, Requires, Validate, Invalidate, Provides, Instantiate
 
@@ -12,7 +13,7 @@ _logger = logging.getLogger(__name__)
 # init data date : 15/05/2021
 
 @ComponentFactory('InitDataBootStrap-Factory')
-@Provides(specifications=[IManagerBootStrapData.name, YCappuccino.name])
+@Provides(specifications=[IBootStrap.name, YCappuccino.name])
 @Requires("_log", IActivityLogger.name, spec_filter="'(name=main)'")
 @Requires("_manager_band", IManager.name, spec_filter="'(item_id=band)'")
 @Requires("_manager_gig", IManager.name, spec_filter="'(item_id=gig)'")
@@ -22,10 +23,10 @@ _logger = logging.getLogger(__name__)
 @Requires("_manager_album", IManager.name, spec_filter="'(item_id=album)'")
 
 @Instantiate("InitDataBootStrap")
-class InitDataBootStrap(IManagerBootStrapData):
+class InitDataBootStrap(IBootStrap):
 
     def __init__(self):
-        super(IManagerBootStrapData, self).__init__();
+        super(IBootStrap, self).__init__();
         self._manager_band = None
         self._manager_gig = None
         self._manager_member = None
@@ -41,6 +42,7 @@ class InitDataBootStrap(IManagerBootStrapData):
         self._init_music()
         self._init_video()
         self._init_album()
+        self._init_gig()
 
     def _init_member(self):
         # y
@@ -105,7 +107,28 @@ class InitDataBootStrap(IManagerBootStrapData):
         self._manager_album.up_sert_model(w_album.id, w_album)
 
     def _init_gig(self):
-        pass
+        w_gigs = []
+        # bl1
+        w_gig = Gig()
+        w_gig.id("winRockFest2022")
+        w_gig.name("WinteRock Fest Session#3")
+        w_gig.address("")
+        w_gig.city("Bonneville")
+        w_gig.place("")
+        w_gig.date("22/10/2022")
+        w_gig.bands("Ozaru, Uutil Therapy, Primal Rage, Y.Blues, Les Crêtes Brulées")
+        w_gigs.append(w_gig)
+
+        w_gig = Gig()
+        w_gig.id("AmperageCollabpse2022")
+        w_gig.name("Amperage")
+        w_gig.address("163 Cr Berriat, 38000 Grenoble")
+        w_gig.city("Grenoble")
+        w_gig.place("L'Amperage")
+        w_gig.date("04/11/2022")
+        w_gig.bands("Collapse, Y.Blues, To be announced")
+        w_gigs.append(w_gig)
+        self._manager_gig.up_sert_many_model( w_gigs)
 
     def _init_music(self):
         self._init_music_arrival()
