@@ -1,6 +1,7 @@
 from ycappuccino.core.model.decorators import Item, Property
 from ycappuccino.core.model.model import Model
 
+from datetime import datetime
 _empty = None
 
 def empty():
@@ -11,6 +12,7 @@ def empty():
     _empty.city("test")
     _empty.place("test")
     _empty.date("20/01/2020")
+    _empty.stamp("20/01/2020")
     _empty.bands("yblues, test")
 
 
@@ -31,6 +33,10 @@ class Gig(Model):
     def city(self, a_value):
         self._city = a_value
 
+    @Property(name="stamp")
+    def stamp(self, a_value):
+        self._stamp = a_value
+
     @Property(name="place")
     def place(self, a_value):
         self._place = a_value
@@ -38,6 +44,7 @@ class Gig(Model):
     @Property(name="date")
     def date(self, a_value):
         self._date = a_value
+        self.stamp(datetime.strptime(self._date,'%d/%m/%Y').timestamp())
 
     @Property(name="bands")
     def bands(self, a_value):

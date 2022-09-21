@@ -119,6 +119,17 @@ class InitDataBootStrap(IBootStrap):
         w_gig.bands("Ozaru, Uutil Therapy, Primal Rage, Y.Blues, Les Crêtes Brulées")
         w_gigs.append(w_gig)
 
+        # bl1
+        w_gig = Gig()
+        w_gig.id("fetezik2022")
+        w_gig.name("Fête de la musique")
+        w_gig.address("22 Bd Gambetta, 38000 Grenoble")
+        w_gig.city("Grenoble")
+        w_gig.place("Le Champollion")
+        w_gig.date("21/06/2022")
+        w_gig.bands("Synapses, Collapse, Y.Blues, Atlasworks")
+        w_gigs.append(w_gig)
+
         w_gig = Gig()
         w_gig.id("AmperageCollabpse2022")
         w_gig.name("Amperage")
