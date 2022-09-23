@@ -1,9 +1,9 @@
-from ycappuccino.core.model.decorators import Item, Property
+from ycappuccino.core.model.decorators import Item, Property, Empty
 from ycappuccino.core.model.model import Model
 
 from datetime import datetime
-_empty = None
 
+@Empty()
 def empty():
     _empty = Gig()
     _empty.id("test")
@@ -14,7 +14,7 @@ def empty():
     _empty.date("20/01/2020")
     _empty.stamp("20/01/2020")
     _empty.bands("yblues, test")
-
+    return _empty
 
 @Item(collection="gigs",plural="gigs",name="gig", secureWrite=True, app="yblues")
 class Gig(Model):
@@ -33,7 +33,7 @@ class Gig(Model):
     def city(self, a_value):
         self._city = a_value
 
-    @Property(name="stamp")
+    @Property(name="stamp", private=True)
     def stamp(self, a_value):
         self._stamp = a_value
 

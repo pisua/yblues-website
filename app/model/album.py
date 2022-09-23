@@ -1,8 +1,8 @@
-from ycappuccino.core.model.decorators import Item, Property, Reference, ItemReference
+from ycappuccino.core.model.decorators import Item, Property, Reference, ItemReference, Empty
 from ycappuccino.core.model.model import Model
 import datetime, time
 
-_empty = None
+@Empty()
 def empty():
     _empty = Album()
     _empty.id("test")
@@ -12,7 +12,7 @@ def empty():
     _empty.cover("test")
     _empty.release_date("01/12/2020")
     _empty.label("test")
-
+    return _empty
 
 @Item(collection="albums",plural="albums",name="album", secureWrite=True, app="yblues")
 @ItemReference(field="_band", item="band")

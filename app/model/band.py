@@ -1,8 +1,7 @@
-from ycappuccino.core.model.decorators import Item, Property
+from ycappuccino.core.model.decorators import Item, Property, Empty
 from ycappuccino.core.model.model import Model
 
-_empty = None
-
+@Empty()
 def empty():
     _empty = Band()
     _empty.id("test")
@@ -10,6 +9,7 @@ def empty():
     _empty.bio("test")
     _empty.address("7 rue test")
     _empty.city("Grenoble")
+    return _empty
 
 @Item(collection="bands", plural="bands",name="band", secureWrite=True, app="yblues")
 class Band(Model):

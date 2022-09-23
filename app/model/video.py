@@ -1,15 +1,15 @@
-from ycappuccino.core.model.decorators import Item, Property, Reference, ItemReference
+from ycappuccino.core.model.decorators import Item, Property, Reference, ItemReference, Empty
 from ycappuccino.core.model.model import Model
 
-_empty = None
 
+@Empty()
 def empty():
     _empty = Video()
     _empty.id("test")
     _empty.name("test")
     _empty.url("http://test")
     _empty.music("mamusique")
-
+    return _empty
 
 @Item(collection="videos", plural="videos",name="video", secureWrite=True, app="yblues")
 @ItemReference(field="_music", item="music")

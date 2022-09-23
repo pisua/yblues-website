@@ -1,7 +1,7 @@
-from ycappuccino.core.model.decorators import Item, Property, Reference, ItemReference
+from ycappuccino.core.model.decorators import Item, Property, Reference, ItemReference, Empty
 from ycappuccino.core.model.model import Model
-_empty = None
 
+@Empty()
 def empty():
     _empty = Music()
     _empty.id("test")
@@ -12,7 +12,7 @@ def empty():
     _empty.arrangment("toto,tata,tutu")
     _empty.feat("ben")
     _empty.album("opus")
-
+    return _empty
 
 @Item(collection="musics",plural="musics",name="music", secureWrite=True, app="yblues")
 @ItemReference(field="_album", item="album")

@@ -1,13 +1,14 @@
-from ycappuccino.core.model.decorators import Item,  Property, Reference, ItemReference
+from ycappuccino.core.model.decorators import Item,  Property, Reference, ItemReference, Empty
 from ycappuccino.core.model.model import Model
-_empty = None
 
+@Empty()
 def empty():
     _empty = Member()
     _empty.id("test")
     _empty.name("yaiba")
     _empty.role("test")
     _empty.band("yblues")
+    return _empty
 
 @Item(collection="members",plural="members",name="member", secureWrite=True, app="yblues")
 @ItemReference(field="_band", item="band")
