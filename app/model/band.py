@@ -26,7 +26,7 @@ class Band(Model):
     def name(self, a_value):
         self._name = a_value
 
-    @Property(name="bio")
+    @Property(name="bio", maxLength=250)
     def bio(self, a_value):
         self._bio = a_value
         
