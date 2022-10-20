@@ -14,6 +14,7 @@ def empty():
     _empty.album("opus")
     return _empty
 
+
 @Item(collection="musics",plural="musics",name="music", secureWrite=True, app="yblues")
 @ItemReference(field="_album", item="album")
 class Music(Model):
