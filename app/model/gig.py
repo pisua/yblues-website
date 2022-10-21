@@ -20,6 +20,14 @@ def empty():
 class Gig(Model):
     def __init__(self, a_dict=None):
         super().__init__(a_dict)
+        self._name = None
+        self._address = None
+        self._city = None
+        self._stamp = None
+        self._place = None
+        self._date = None
+        self._bands = None
+
 
     @Property(name="name")
     def name(self, a_value):
