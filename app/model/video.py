@@ -11,8 +11,9 @@ def empty():
     _empty.music("mamusique")
     return _empty
 
-@Item(collection="videos", plural="videos",name="video", secureWrite=True, app="yblues")
-@ItemReference(field="_music", item="music")
+
+@Item(collection="videos", plural="videos",name="video", secure_write=True, app="yblues")
+@ItemReference(from_name="video",field="music", item="music")
 class Video(Model):
     def __init__(self, a_dict=None):
         super().__init__(a_dict)

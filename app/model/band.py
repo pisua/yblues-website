@@ -11,7 +11,8 @@ def empty():
     _empty.city("Grenoble")
     return _empty
 
-@Item(collection="bands", plural="bands",name="band", secureWrite=True, app="yblues")
+
+@Item(collection="bands", plural="bands",name="band", secure_write=True, app="yblues")
 class Band(Model):
     def __init__(self, a_dict=None):
         super().__init__(a_dict)

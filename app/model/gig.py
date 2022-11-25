@@ -16,7 +16,8 @@ def empty():
     _empty.bands("yblues, test")
     return _empty
 
-@Item(collection="gigs",plural="gigs",name="gig", secureWrite=True, app="yblues")
+
+@Item(collection="gigs",plural="gigs",name="gig", secure_write=True, app="yblues")
 class Gig(Model):
     def __init__(self, a_dict=None):
         super().__init__(a_dict)

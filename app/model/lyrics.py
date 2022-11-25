@@ -9,8 +9,9 @@ def empty():
     _empty.lyrics("test")
     return _empty
 
-@Item(collection="lyrics",plural="lyrics", name="lyric", secureWrite=True, app="yblues")
-@ItemReference(field="_music", item="music")
+
+@Item(collection="lyrics",plural="lyrics", name="lyric", secure_write=True, app="yblues")
+@ItemReference(from_name="lyric",field="music", item="music")
 class Lyrics(Model):
     def __init__(self, a_dict=None):
         super().__init__(a_dict)
