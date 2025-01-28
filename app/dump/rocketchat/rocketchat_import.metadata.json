@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"ts":{"$numberInt":"-1"}},"name":"ts_-1"},{"v":{"$numberInt":"2"},"key":{"valid":{"$numberInt":"1"}},"name":"valid_1"}],"uuid":"aa6b9fcd04a746fabf8883f1e73c1466","collectionName":"rocketchat_import","type":"collection"}

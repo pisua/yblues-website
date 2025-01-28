@@ -10,9 +10,8 @@ def empty():
     _empty.band("yblues")
     return _empty
 
-
-@Item(collection="members",plural="members",name="member", secure_write=True, app="yblues")
-@ItemReference(from_name="member",field="band", item="band")
+@Item(collection="members",plural="members",name="member", secureWrite=True, app="yblues")
+@ItemReference(field="_band", item="band")
 class Member(Model):
     def __init__(self, a_dict=None):
         super().__init__(a_dict)

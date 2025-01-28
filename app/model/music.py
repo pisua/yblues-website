@@ -15,8 +15,8 @@ def empty():
     return _empty
 
 
-@Item(collection="musics",plural="musics",name="music", secure_write=True, app="yblues")
-@ItemReference(from_name="music",field="album", item="album")
+@Item(collection="musics",plural="musics",name="music", secureWrite=True, app="yblues")
+@ItemReference(field="_album", item="album")
 class Music(Model):
     """ bean that represent a music of an album(or not) """
     def __init__(self, a_dict=None):

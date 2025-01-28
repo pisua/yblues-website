@@ -14,9 +14,8 @@ def empty():
     _empty.label("test")
     return _empty
 
-
-@Item(collection="albums",plural="albums",name="album", secure_write=True, app="yblues")
-@ItemReference(from_name="album", field="band", item="band")
+@Item(collection="albums",plural="albums",name="album", secureWrite=True, app="yblues")
+@ItemReference(field="_band", item="band")
 class Album(Model):
     """ bean that represent an album """
     def __init__(self, a_dict=None):

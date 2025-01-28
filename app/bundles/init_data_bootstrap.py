@@ -538,7 +538,9 @@ class InitDataBootStrap(IBootStrap):
     def validate(self, context):
         _logger.info("AccountBootStrap validating")
         try:
-            self.bootstrap()
+            pass
+
+         #   self.bootstrap()
         except Exception as e:
             _logger.error("AccountBootStrap Error {}".format(e))
             _logger.exception(e)

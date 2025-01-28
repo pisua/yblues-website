@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd8edd5-fdf8-4543-939d-4d4331c54b88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yblues.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yblues.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bundles/init_data_bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/bundles/init_data_bootstrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/conf/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/conf/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/album.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model/band.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/band.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model/gig.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/gig.py" afterDir="false" />
@@ -28,24 +36,6 @@
       <change beforePath="$PROJECT_DIR$/app/model/member.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/member.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model/music.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/music.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model/video.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/beans.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/beans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/endpoints.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/endpoints.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/js/replace_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/js/replace_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/managers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/bundles/util_swagger.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/bundles/util_swagger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/RolePermission.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/RolePermission.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/decorators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/media.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/media.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/permission.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/permission.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/role.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/role.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/ui/client_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/ui/client_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/core/model/ui/layout.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/core/model/ui/layout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/simpleform/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/simpleform/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ycappuccino/simpleform/module/main/main-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/ycappuccino/simpleform/module/main/main-controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,22 +51,30 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app/ycappuccino" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="1sgi31z7KYK3cSfTJ5xB4VhWXEk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/ycappuccino/core/model" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/apisu/repositories/yblues-website/.venv/bin/python3",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/ycappuccino/core/model" />
@@ -95,14 +93,16 @@
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="yblues" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/main.py" />
@@ -162,6 +162,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -183,161 +190,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="567" y="401" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1668002333820">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state x="566" y="401" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.23.2518.1417@42.23.2518.1417" timestamp="1663690110644" />
-    <state x="567" y="401" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.23.2517.1417@43.23.2517.1417" timestamp="1668002333820" />
-    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1669373766362">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="460" height="466" key="DebuggerActiveHint/43.23.2517.1417@43.23.2517.1417" timestamp="1669373766362" />
-    <state x="401" y="283" width="1826" height="827" key="DiffContextDialog" timestamp="1663670615936">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state x="401" y="283" width="1826" height="827" key="DiffContextDialog/43.23.2517.1417@43.23.2517.1417" timestamp="1663670615936" />
-    <state width="1677" height="511" key="GridCell.Tab.-1.bottom" timestamp="1663937295123">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state width="1677" height="511" key="GridCell.Tab.-1.bottom/41.23.2519.1417@41.23.2519.1417" timestamp="1663937295123" />
-    <state width="1677" height="511" key="GridCell.Tab.-1.center" timestamp="1663937295123">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state width="1677" height="511" key="GridCell.Tab.-1.center/41.23.2519.1417@41.23.2519.1417" timestamp="1663937295123" />
-    <state width="1677" height="511" key="GridCell.Tab.-1.left" timestamp="1663937295123">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state width="1677" height="511" key="GridCell.Tab.-1.left/41.23.2519.1417@41.23.2519.1417" timestamp="1663937295123" />
-    <state width="1677" height="511" key="GridCell.Tab.-1.right" timestamp="1663937295123">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state width="1677" height="511" key="GridCell.Tab.-1.right/41.23.2519.1417@41.23.2519.1417" timestamp="1663937295123" />
-    <state width="2380" height="310" key="GridCell.Tab.0.bottom" timestamp="1669385276651">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="2380" height="357" key="GridCell.Tab.0.bottom/39.23.2521.1417@39.23.2521.1417" timestamp="1665759648486" />
-    <state width="2380" height="357" key="GridCell.Tab.0.bottom/40.23.2520.1417@40.23.2520.1417" timestamp="1665760072302" />
-    <state width="2380" height="369" key="GridCell.Tab.0.bottom/41.23.2519.1417@41.23.2519.1417" timestamp="1669216760930" />
-    <state width="2380" height="370" key="GridCell.Tab.0.bottom/42.23.2518.1417@42.23.2518.1417" timestamp="1668761544892" />
-    <state width="2380" height="310" key="GridCell.Tab.0.bottom/43.23.2517.1417@43.23.2517.1417" timestamp="1669385276651" />
-    <state width="2380" height="310" key="GridCell.Tab.0.center" timestamp="1669385276651">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="2380" height="357" key="GridCell.Tab.0.center/39.23.2521.1417@39.23.2521.1417" timestamp="1665759648485" />
-    <state width="2380" height="357" key="GridCell.Tab.0.center/40.23.2520.1417@40.23.2520.1417" timestamp="1665760072301" />
-    <state width="2380" height="369" key="GridCell.Tab.0.center/41.23.2519.1417@41.23.2519.1417" timestamp="1669216760929" />
-    <state width="2380" height="370" key="GridCell.Tab.0.center/42.23.2518.1417@42.23.2518.1417" timestamp="1668761544892" />
-    <state width="2380" height="310" key="GridCell.Tab.0.center/43.23.2517.1417@43.23.2517.1417" timestamp="1669385276651" />
-    <state width="2380" height="310" key="GridCell.Tab.0.left" timestamp="1669385276651">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="2380" height="357" key="GridCell.Tab.0.left/39.23.2521.1417@39.23.2521.1417" timestamp="1665759648485" />
-    <state width="2380" height="357" key="GridCell.Tab.0.left/40.23.2520.1417@40.23.2520.1417" timestamp="1665760072301" />
-    <state width="2380" height="369" key="GridCell.Tab.0.left/41.23.2519.1417@41.23.2519.1417" timestamp="1669216760929" />
-    <state width="2380" height="370" key="GridCell.Tab.0.left/42.23.2518.1417@42.23.2518.1417" timestamp="1668761544891" />
-    <state width="2380" height="310" key="GridCell.Tab.0.left/43.23.2517.1417@43.23.2517.1417" timestamp="1669385276651" />
-    <state width="2380" height="310" key="GridCell.Tab.0.right" timestamp="1669385276651">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="2380" height="357" key="GridCell.Tab.0.right/39.23.2521.1417@39.23.2521.1417" timestamp="1665759648486" />
-    <state width="2380" height="357" key="GridCell.Tab.0.right/40.23.2520.1417@40.23.2520.1417" timestamp="1665760072302" />
-    <state width="2380" height="369" key="GridCell.Tab.0.right/41.23.2519.1417@41.23.2519.1417" timestamp="1669216760930" />
-    <state width="2380" height="370" key="GridCell.Tab.0.right/42.23.2518.1417@42.23.2518.1417" timestamp="1668761544892" />
-    <state width="2380" height="310" key="GridCell.Tab.0.right/43.23.2517.1417@43.23.2517.1417" timestamp="1669385276651" />
-    <state width="2380" height="310" key="GridCell.Tab.1.bottom" timestamp="1669385276568">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="2380" height="357" key="GridCell.Tab.1.bottom/39.23.2521.1417@39.23.2521.1417" timestamp="1665759648401" />
-    <state width="2380" height="357" key="GridCell.Tab.1.bottom/40.23.2520.1417@40.23.2520.1417" timestamp="1665760073314" />
-    <state width="2380" height="369" key="GridCell.Tab.1.bottom/41.23.2519.1417@41.23.2519.1417" timestamp="1669216758337" />
-    <state width="2380" height="370" key="GridCell.Tab.1.bottom/42.23.2518.1417@42.23.2518.1417" timestamp="1668761544893" />
-    <state width="2380" height="310" key="GridCell.Tab.1.bottom/43.23.2517.1417@43.23.2517.1417" timestamp="1669385276568" />
-    <state width="2380" height="310" key="GridCell.Tab.1.center" timestamp="1669385276568">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="2380" height="357" key="GridCell.Tab.1.center/39.23.2521.1417@39.23.2521.1417" timestamp="1665759648401" />
-    <state width="2380" height="357" key="GridCell.Tab.1.center/40.23.2520.1417@40.23.2520.1417" timestamp="1665760073314" />
-    <state width="2380" height="369" key="GridCell.Tab.1.center/41.23.2519.1417@41.23.2519.1417" timestamp="1669216758337" />
-    <state width="2380" height="370" key="GridCell.Tab.1.center/42.23.2518.1417@42.23.2518.1417" timestamp="1668761544892" />
-    <state width="2380" height="310" key="GridCell.Tab.1.center/43.23.2517.1417@43.23.2517.1417" timestamp="1669385276568" />
-    <state width="2380" height="310" key="GridCell.Tab.1.left" timestamp="1669385276567">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="2380" height="357" key="GridCell.Tab.1.left/39.23.2521.1417@39.23.2521.1417" timestamp="1665759648401" />
-    <state width="2380" height="357" key="GridCell.Tab.1.left/40.23.2520.1417@40.23.2520.1417" timestamp="1665760073313" />
-    <state width="2380" height="369" key="GridCell.Tab.1.left/41.23.2519.1417@41.23.2519.1417" timestamp="1669216758337" />
-    <state width="2380" height="370" key="GridCell.Tab.1.left/42.23.2518.1417@42.23.2518.1417" timestamp="1668761544892" />
-    <state width="2380" height="310" key="GridCell.Tab.1.left/43.23.2517.1417@43.23.2517.1417" timestamp="1669385276567" />
-    <state width="2380" height="310" key="GridCell.Tab.1.right" timestamp="1669385276568">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="2380" height="357" key="GridCell.Tab.1.right/39.23.2521.1417@39.23.2521.1417" timestamp="1665759648401" />
-    <state width="2380" height="357" key="GridCell.Tab.1.right/40.23.2520.1417@40.23.2520.1417" timestamp="1665760073314" />
-    <state width="2380" height="369" key="GridCell.Tab.1.right/41.23.2519.1417@41.23.2519.1417" timestamp="1669216758337" />
-    <state width="2380" height="370" key="GridCell.Tab.1.right/42.23.2518.1417@42.23.2518.1417" timestamp="1668761544892" />
-    <state width="2380" height="310" key="GridCell.Tab.1.right/43.23.2517.1417@43.23.2517.1417" timestamp="1669385276568" />
-    <state x="912" y="585" width="1648" height="483" key="GridCell.Tab.2.bottom" timestamp="1663937295157">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state x="912" y="585" width="1648" height="483" key="GridCell.Tab.2.bottom/41.23.2519.1417@41.23.2519.1417" timestamp="1663937295157" />
-    <state x="912" y="585" width="1648" height="483" key="GridCell.Tab.2.center" timestamp="1663937295156">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state x="912" y="585" width="1648" height="483" key="GridCell.Tab.2.center/41.23.2519.1417@41.23.2519.1417" timestamp="1663937295156" />
-    <state x="912" y="585" width="1648" height="483" key="GridCell.Tab.2.left" timestamp="1663937295156">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state x="912" y="585" width="1648" height="483" key="GridCell.Tab.2.left/41.23.2519.1417@41.23.2519.1417" timestamp="1663937295156" />
-    <state x="912" y="585" width="1648" height="483" key="GridCell.Tab.2.right" timestamp="1663937295157">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state x="912" y="585" width="1648" height="483" key="GridCell.Tab.2.right/41.23.2519.1417@41.23.2519.1417" timestamp="1663937295157" />
-    <state x="1049" y="433" key="RollbackChangesDialog" timestamp="1663937051277">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state x="1049" y="433" key="RollbackChangesDialog/41.23.2519.1417@41.23.2519.1417" timestamp="1663937051277" />
-    <state x="811" y="396" key="SettingsEditor" timestamp="1668002341962">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state x="810" y="396" key="SettingsEditor/42.23.2518.1417@42.23.2518.1417" timestamp="1663690163027" />
-    <state x="811" y="396" key="SettingsEditor/43.23.2517.1417@43.23.2517.1417" timestamp="1668002341962" />
-    <state x="789" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1669216756220">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state x="787" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/39.23.2521.1417@39.23.2521.1417" timestamp="1665758947817" />
-    <state x="787" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/40.23.2520.1417@40.23.2520.1417" timestamp="1666017160003" />
-    <state x="789" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/41.23.2519.1417@41.23.2519.1417" timestamp="1669216756220" />
-    <state x="789" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/42.23.2518.1417@42.23.2518.1417" timestamp="1664798960656" />
-    <state x="790" y="535" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/43.23.2517.1417@43.23.2517.1417" timestamp="1666364060454" />
-    <state x="568" y="870" width="1648" height="499" key="dock-window-1" timestamp="1663937470349">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state x="568" y="870" width="1648" height="499" key="dock-window-1/41.23.2519.1417@41.23.2519.1417" timestamp="1663937470349" />
-    <state x="773" y="492" width="664" height="582" key="find.popup" timestamp="1665757536513">
-      <screen x="39" y="23" width="2521" height="1417" />
-    </state>
-    <state x="773" y="492" width="664" height="582" key="find.popup/39.23.2521.1417@39.23.2521.1417" timestamp="1665757536513" />
-    <state x="774" y="492" width="664" height="582" key="find.popup/40.23.2520.1417@40.23.2520.1417" timestamp="1665561201555" />
-    <state x="776" y="492" width="662" height="582" key="find.popup/43.23.2517.1417@43.23.2517.1417" timestamp="1663671408510" />
-    <state x="1001" y="638" key="git4idea.ui.GitResetDialog" timestamp="1666014192045">
-      <screen x="39" y="23" width="2521" height="1417" />
-    </state>
-    <state x="1001" y="638" key="git4idea.ui.GitResetDialog/39.23.2521.1417@39.23.2521.1417" timestamp="1666014192045" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1669370696773">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/43.23.2517.1417@43.23.2517.1417" timestamp="1669370696773" />
-    <state x="928" y="353" width="670" height="676" key="search.everywhere.popup" timestamp="1665480001816">
-      <screen x="41" y="23" width="2519" height="1417" />
-    </state>
-    <state x="928" y="353" width="670" height="676" key="search.everywhere.popup/41.23.2519.1417@41.23.2519.1417" timestamp="1665480001816" />
-    <state x="1031" y="676" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1663674936944">
-      <screen x="43" y="23" width="2517" height="1417" />
-    </state>
-    <state x="1031" y="676" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/43.23.2517.1417@43.23.2517.1417" timestamp="1663674936944" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
