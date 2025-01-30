@@ -17,7 +17,8 @@ then
         echo "Building RELEASE version .."
         echo "Tag=$DOCKER_FULL_NAME"
         echo "Tag=$DOCKER_FULL_NAME_LATEST"
-        docker build --force-rm=true --pull=true --tag="$DOCKER_FULL_NAME"  -f $DOCKER_FILE "$(pwd)"
+        echo "docker buildx build --force-rm=true --pull=true --tag=\"$DOCKER_FULL_NAME\"  -f $DOCKER_FILE \"$(pwd)\""
+        docker buildx build --force-rm=true --pull=true --tag="$DOCKER_FULL_NAME"  -f $DOCKER_FILE "$(pwd)"
 
 
         if [ "$?" -eq 0 ]
